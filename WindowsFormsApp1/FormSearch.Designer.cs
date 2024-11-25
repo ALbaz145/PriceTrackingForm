@@ -43,6 +43,7 @@
             this.textBoxLink.TabIndex = 0;
             this.textBoxLink.Text = "Enlace";
             this.textBoxLink.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxLink.TextChanged += new System.EventHandler(this.textBoxLink_TextChanged);
             // 
             // button1
             // 
@@ -75,7 +76,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBoxLink);
             this.Name = "FormSearch";
-            this.Text = "FormSearch";
+            this.Text = "Search";
             this.ResumeLayout(false);
             this.PerformLayout();
 

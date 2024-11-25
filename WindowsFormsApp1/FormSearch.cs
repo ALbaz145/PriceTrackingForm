@@ -65,5 +65,10 @@ namespace WindowsFormsApp1
             return null;
         }
 
+        private void textBoxLink_TextChanged(object sender, EventArgs e)
+        {
+            textBoxLink.Font = new Font("Arial", 8, FontStyle.Italic);
+            textBoxLink.ForeColor = Color.Black;
+        }
     }
 }

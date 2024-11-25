@@ -22,5 +22,11 @@ namespace WindowsFormsApp1
             FormSearch form = new FormSearch();
             form.ShowDialog();
         }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            FormAgregar form = new FormAgregar();
+            form.ShowDialog();
+        }
     }
 }

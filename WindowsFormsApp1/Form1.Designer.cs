@@ -34,6 +34,7 @@
             // 
             // buttonSearch
             // 
+            this.buttonSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonSearch.Location = new System.Drawing.Point(108, 38);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(112, 60);
@@ -44,12 +45,14 @@
             // 
             // buttonAdd
             // 
+            this.buttonAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonAdd.Location = new System.Drawing.Point(108, 142);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(112, 61);
             this.buttonAdd.TabIndex = 1;
             this.buttonAdd.Text = "Agregar";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // Form1
             // 
