@@ -40,6 +40,12 @@ namespace WindowsFormsApp1
         private async void button1_Click(object sender, EventArgs e)
         {
             string amazonUrl = textBox2.Text;
+
+            // Check if the string exceeds the maximum length allowed by the database
+            if (amazonUrl.Length > 255)
+            {
+                amazonUrl = amazonUrl.Substring(0, 255); // Truncate to fit
+            }
             while (true)
             {
                 if (cts.Token.IsCancellationRequested)
