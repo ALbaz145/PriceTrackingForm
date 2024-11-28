@@ -33,5 +33,16 @@ namespace WindowsFormsApp1.Properties {
                 return ((string)(this["PriceTrackingConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-B5QJSTA\\SQLEXPRESS;Initial Catalog=PriceTracking;Integrated S" +
+            "ecurity=True;TrustServerCertificate=True")]
+        public string PriceTrackingConnectionString1 {
+            get {
+                return ((string)(this["PriceTrackingConnectionString1"]));
+            }
+        }
     }
 }

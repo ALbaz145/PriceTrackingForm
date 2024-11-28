@@ -5,9 +5,10 @@ USE PriceTracking
 GO
 
 CREATE TABLE Objetos (
-id int PRIMARY KEY IDENTITY,
+id int IDENTITY,
 Nombre varchar(20),
 Tienda varchar(20),
-link varchar(128)
+Link varchar(500),
+Precio varchar(15)
 )
 GO

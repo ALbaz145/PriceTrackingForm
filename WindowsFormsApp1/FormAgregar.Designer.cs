@@ -35,17 +35,18 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.priceTrackingDataSet2 = new WindowsFormsApp1.PriceTrackingDataSet2();
+            this.objetosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.objetosTableAdapter = new WindowsFormsApp1.PriceTrackingDataSet2TableAdapters.ObjetosTableAdapter();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tiendaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.linkDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.objetosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.priceTrackingDataSet = new WindowsFormsApp1.PriceTrackingDataSet();
-            this.objetosTableAdapter = new WindowsFormsApp1.PriceTrackingDataSetTableAdapters.ObjetosTableAdapter();
+            this.precioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.priceTrackingDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objetosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.priceTrackingDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -119,12 +120,27 @@
             this.idDataGridViewTextBoxColumn,
             this.nombreDataGridViewTextBoxColumn,
             this.tiendaDataGridViewTextBoxColumn,
-            this.linkDataGridViewTextBoxColumn});
+            this.linkDataGridViewTextBoxColumn,
+            this.precioDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.objetosBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(29, 186);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(563, 157);
             this.dataGridView1.TabIndex = 1;
+            // 
+            // priceTrackingDataSet2
+            // 
+            this.priceTrackingDataSet2.DataSetName = "PriceTrackingDataSet2";
+            this.priceTrackingDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // objetosBindingSource
+            // 
+            this.objetosBindingSource.DataMember = "Objetos";
+            this.objetosBindingSource.DataSource = this.priceTrackingDataSet2;
+            // 
+            // objetosTableAdapter
+            // 
+            this.objetosTableAdapter.ClearBeforeFill = true;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -138,35 +154,24 @@
             this.nombreDataGridViewTextBoxColumn.DataPropertyName = "Nombre";
             this.nombreDataGridViewTextBoxColumn.HeaderText = "Nombre";
             this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
-            this.nombreDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // tiendaDataGridViewTextBoxColumn
             // 
             this.tiendaDataGridViewTextBoxColumn.DataPropertyName = "Tienda";
             this.tiendaDataGridViewTextBoxColumn.HeaderText = "Tienda";
             this.tiendaDataGridViewTextBoxColumn.Name = "tiendaDataGridViewTextBoxColumn";
-            this.tiendaDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // linkDataGridViewTextBoxColumn
             // 
-            this.linkDataGridViewTextBoxColumn.DataPropertyName = "link";
-            this.linkDataGridViewTextBoxColumn.HeaderText = "link";
+            this.linkDataGridViewTextBoxColumn.DataPropertyName = "Link";
+            this.linkDataGridViewTextBoxColumn.HeaderText = "Link";
             this.linkDataGridViewTextBoxColumn.Name = "linkDataGridViewTextBoxColumn";
-            this.linkDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // objetosBindingSource
+            // precioDataGridViewTextBoxColumn
             // 
-            this.objetosBindingSource.DataMember = "Objetos";
-            this.objetosBindingSource.DataSource = this.priceTrackingDataSet;
-            // 
-            // priceTrackingDataSet
-            // 
-            this.priceTrackingDataSet.DataSetName = "PriceTrackingDataSet";
-            this.priceTrackingDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // objetosTableAdapter
-            // 
-            this.objetosTableAdapter.ClearBeforeFill = true;
+            this.precioDataGridViewTextBoxColumn.DataPropertyName = "Precio";
+            this.precioDataGridViewTextBoxColumn.HeaderText = "Precio";
+            this.precioDataGridViewTextBoxColumn.Name = "precioDataGridViewTextBoxColumn";
             // 
             // FormAgregar
             // 
@@ -181,8 +186,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.priceTrackingDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.objetosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.priceTrackingDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,12 +200,13 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private PriceTrackingDataSet priceTrackingDataSet;
+        private PriceTrackingDataSet2 priceTrackingDataSet2;
         private System.Windows.Forms.BindingSource objetosBindingSource;
-        private PriceTrackingDataSetTableAdapters.ObjetosTableAdapter objetosTableAdapter;
+        private PriceTrackingDataSet2TableAdapters.ObjetosTableAdapter objetosTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tiendaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn linkDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn precioDataGridViewTextBoxColumn;
     }
 }

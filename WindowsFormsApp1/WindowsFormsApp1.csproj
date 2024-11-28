@@ -75,6 +75,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PriceTrackingDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="PriceTrackingDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PriceTrackingDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PriceTrackingDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PriceTrackingDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -106,6 +116,28 @@
     </None>
     <None Include="PriceTrackingDataSet.xss">
       <DependentUpon>PriceTrackingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PriceTrackingDataSet1.xsc">
+      <DependentUpon>PriceTrackingDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PriceTrackingDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PriceTrackingDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PriceTrackingDataSet1.xss">
+      <DependentUpon>PriceTrackingDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PriceTrackingDataSet2.xsc">
+      <DependentUpon>PriceTrackingDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PriceTrackingDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PriceTrackingDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PriceTrackingDataSet2.xss">
+      <DependentUpon>PriceTrackingDataSet2.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

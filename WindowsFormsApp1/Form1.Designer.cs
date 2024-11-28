@@ -28,25 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonSearch = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // buttonSearch
-            // 
-            this.buttonSearch.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonSearch.Location = new System.Drawing.Point(108, 38);
-            this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(112, 60);
-            this.buttonSearch.TabIndex = 0;
-            this.buttonSearch.Text = "Buscar";
-            this.buttonSearch.UseVisualStyleBackColor = true;
-            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // buttonAdd
             // 
             this.buttonAdd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonAdd.Location = new System.Drawing.Point(108, 142);
+            this.buttonAdd.Location = new System.Drawing.Point(106, 60);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(112, 61);
             this.buttonAdd.TabIndex = 1;
@@ -60,7 +48,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(318, 253);
             this.Controls.Add(this.buttonAdd);
-            this.Controls.Add(this.buttonSearch);
             this.Name = "Form1";
             this.Text = "PriceTracking";
             this.ResumeLayout(false);
@@ -68,8 +55,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.Button buttonAdd;
     }
 }

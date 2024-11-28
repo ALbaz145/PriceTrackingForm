@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\os\\desktop\\pricetrackingform\\windowsformsapp1\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\os\\desktop\\pricetrackingform\\windowsformsapp1\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\os\\desktop\\pricetrackingform\\windowsformsapp1\\formsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\formsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\os\\desktop\\pricetrackingform\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\os\\desktop\\pricetrackingform\\windowsformsapp1\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\os\\desktop\\pricetrackingform\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00DC03A-29C2-40F2-85F6-25B29FEBA19B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +30,50 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormAgregar.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\FormAgregar.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormAgregar.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\FormAgregar.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\FormAgregar.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAswEEAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:23:12.458Z",
+              "WhenOpened": "2024-11-28T12:16:37.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormSearch.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\FormSearch.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormSearch.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\FormSearch.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\FormSearch.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:22:03.977Z",
+              "WhenOpened": "2024-11-28T12:09:08.148Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormAgregar.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\FormAgregar.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormAgregar.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\FormAgregar.cs*",
+              "RelativeToolTip": "WindowsFormsApp1\\FormAgregar.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAEQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:55:52.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FormAgregar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\FormAgregar.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\FormAgregar.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\FormAgregar.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\FormAgregar.cs [Design]",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\PriceTrackingForm\\WindowsFormsApp1\\FormAgregar.cs [Design]*",
+              "RelativeToolTip": "WindowsFormsApp1\\FormAgregar.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T04:53:43.47Z",
               "EditorCaption": " [Design]"
